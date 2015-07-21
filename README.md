@@ -6,7 +6,7 @@ By installing this module you can add a very basic Upcoming Events with Google C
 http://www.vineyardgroningen.com/agenda/
 
 ## Requirements ##
-* [Google API PHP client] (https://github.com/google/google-api-php-client) (included in package)
+* [Google API PHP client] (https://github.com/google/google-api-php-client)
 
 ## Installation ##
 
@@ -16,10 +16,12 @@ Download the zip package and upload in the Joomla extension manager.
 
 ## Configuration ##
 
-* [Google Calendar ID] Your public Google Calendar Address, this should have the format of xxxxxxxx@group.calendar.google.com
-* [Google Calendar API Key] key for server applications
-* [Default Location Name] Default name of your venue location for the Structured Data.
-* [Default Location Address] Default address of your venue location for Structured Data.
+Option                     | Description
+-------------------------- | -------------------------------------------
+Google Calendar ID         |  Your public Google Calendar Address, this should have the format of xxxxxxxx@group.calendar.google.com
+Google Calendar API Key    | key for server applications
+Default Location Name      | Default name of your venue location for the Structured Data.
+Default Location Address   | Default address of your venue location for Structured Data.
 
 
 
