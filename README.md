@@ -22,7 +22,18 @@ and
 
 Or download the zip package and manually add the https://github.com/google/google-api-php-client library to the modules/mod_upcoming_events/ folder.
 
-## Configuration ##
+## Module Configuration ##
+
+### Display Otions ###
+
+Option                             | Description
+---------------------------------- | -------------------------------------------
+Number Of Events To Display        | Max number of events to display
+Number Of Days To Display          | Max number of days to display (combines with the number of events)
+Show add to Google Calendar button | Show a link under the event calendar that allows users to add it to their Google Calendar
+
+### Google Calendar Integration ###
+
 
 Option                     | Description
 -------------------------- | -------------------------------------------
