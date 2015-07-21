@@ -4,9 +4,16 @@ defined('_JEXEC') or die;
 
 // Get module params
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
+//$google_api_key = JComponentHelper::getParams('com_upcomingevents')->get('google_api_key', '');
 $google_api_key = htmlspecialchars( $params->get('google_api_key') );
 $google_calendar_id = htmlspecialchars( $params->get('google_calendar_id') );
 $max_events = htmlspecialchars( $params->get('max_events') );
+$max_days = htmlspecialchars( $params->get('max_days') );
+$header_tag = htmlspecialchars( $params->get('header_tag') );
+$header_class = htmlspecialchars( $params->get('header_class') );
+$show_google_button = htmlspecialchars( $params->get('show_google_button') );
+$default_location_name = htmlspecialchars( $params->get('default_location_name') );
+$default_location_address = htmlspecialchars( $params->get('default_location_address') );
 
 // Load Google API PHP Client
 require_once( __DIR__ . '/google-api-php-client/src/Google/autoload.php' );
