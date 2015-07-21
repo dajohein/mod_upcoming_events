@@ -12,7 +12,15 @@ http://www.vineyardgroningen.com/agenda/
 
 Create a project at https://console.developers.google.com/project and create a new "key for server applications".
 
-Download the zip package and upload in the Joomla extension manager.
+Clone the package
+
+`git clone https://github.com/dajohein/mod_upcoming_events.git`
+
+and 
+
+`git submodule update --init`
+
+Or download the zip package and manually add the https://github.com/google/google-api-php-client library to the modules/mod_upcoming_events/ folder.
 
 ## Configuration ##
 
